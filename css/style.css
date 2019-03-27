@@ -1,0 +1,109 @@
+*{
+ margin: 0;
+ padding: 0;
+}
+header{
+    /*background-image: url('../img/sport.jpg');*/
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav#navbar{
+    position: relative;
+    width: 510px;
+    float: right;
+    top: 20px;
+}
+.fa-bars{
+    display: none;
+}
+nav#navbar ul li {
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 22px;
+}
+nav#navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+header img{
+  width: 70px;
+  float: left;
+  padding: 5px;
+}
+ p{
+    z-index: 5;
+    color: black; 
+}
+#heading{
+    position: relative;
+    width: 100%;
+    background-color: rgb(136, 30, 30);
+    z-index: 999;
+}
+section img{
+    background-size: cover;
+}
+.container{
+    display: flex;
+}
+.container img{
+    padding: 10px;
+    width: 25%;
+    height: 40%;
+}
+
+footer{  
+    background-color: rgb(136, 30, 30);
+}
+footer img{
+    width: 100px;
+}
+#rodape{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.location{
+    width: 25%;
+}
+.d-md-block, h5, p{
+    background: rgba(0, 0, 0, 0.527);
+    color: white;
+}
+.d-md-block{
+    position: relative;
+    left: 10px;
+    width: 500px;
+}
+.carousel-item{
+    height: 500px;
+}
+@media screen and (max-width: 1200px){
+    nav#navbar{
+      display: none;
+    }
+    .fa-bars{
+        display: block;
+        font-size: 40px;
+        float: right;
+        position: relative;
+        padding: 20px;
+        color: white;
+    }
+
+}
+@media screen and (max-width: 840px){
+    .container{
+        flex-direction: column;
+    }
+    .container img{
+        width: 100%;
+        height: 50%;
+        padding: 0px;
+    }
+    #rodape{
+        flex-direction: column;
+    }
+}
