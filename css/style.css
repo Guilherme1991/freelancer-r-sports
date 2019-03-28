@@ -14,7 +14,7 @@ p{
     background: black;
 }
 #navbar img{
-    width: 120px;
+    width: 150px;
 }
 nav{
     display: none;
@@ -149,16 +149,16 @@ footer{
 .fa-paw{
     font-size: 30px;
 }
-.anima{
-    position: fixed;
-    z-index: 5;
+.social{
+ background: #f1f1f1;
+ height:30px;
 }
 @media only screen and (max-width: 640px){
     #navbar{
      height: 60px;
     }
     #navbar img{
-     width: 90px;
+     width: 120px;
     }
     .fa-bars{
      font-size: 25px;
@@ -212,4 +212,7 @@ footer{
     .container img{
         width: 400px;
 }
+    .social{
+        display: none;
+    }
 }
